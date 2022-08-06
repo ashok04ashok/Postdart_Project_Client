@@ -1,0 +1,68 @@
+
+
+.notifiation_page h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 30px;
+}
+
+.notifiation_contant_page {
+	height: 100px;
+	width: 1100px;
+	overflow: hidden;
+	margin: 10px 20px 10px 20px;
+	padding: 10px 50px 10px 50px;
+	border-radius: 10px;
+	background-color: #050111;
+	box-shadow: 3px 3px 10px 1px #8a8383c5;
+	transition-duration: 0.6s;
+	cursor: pointer;
+	position: relative;
+
+}
+
+.notifiation_contant_page:hover  {
+	height: 140px;
+	width: 1120px;
+	background-color: rgba(87, 87, 87, 0.674);
+}
+
+
+.notification_heading {
+	width: 500px;
+	display: inline;
+	position: relative;
+	color: white;
+	padding: 5px;
+}
+
+.notification_heading span {
+	margin: 0px 0px 0px 50px;
+}
+
+.notification_heading span:hover {
+	color: rgba(205, 217, 227, 0.712);
+}
+
+.notification_heading .notification_name {
+	font-size: 30px;
+	font-weight: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification_avatar_1 {
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+
+}
+
+.notification_messsage {
+	height: 50px;
+	width: 1000px;
+	color: white;
+	overflow: hidden;
+
+}
+.notifiation_contant_page:hover .notification_messsage{
+	overflow:visible;
+}
