@@ -1,0 +1,59 @@
+/* landing page  */
+
+
+/* all page background color page  */
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+/*entrance_form  */
+.entrance_form {
+	margin: 0px 0px 0px 500px;
+	max-height: 600px;
+	max-width: 700px;
+	background-color: transparent;
+	position: relative;
+	display: inline;
+}
+
+
+
+
+
+/* entrance_form  button  style */
+.entrance_btn1,
+.entrance_btn2 {
+	margin: 200px 0px 0px 10px;
+	width: 300px;
+	height: 60px;
+	font-size: 50px;
+	background: #fefefe42;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	font-weight: bolder;
+	text-shadow: 10px 5px 10px  #181616c5;
+	transition-duration: 1s;
+}
+/*entrance button hover style */
+.entrance_btn1:hover,
+.entrance_btn2:hover {
+	margin: 210px 0px 0px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	background: #000000;
+	border-radius: 0px 50px 0px 50px;
+	box-shadow: 5px 20px 10px 5px #5e5b5bc5;
+}
