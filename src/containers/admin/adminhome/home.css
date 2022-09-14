@@ -61,7 +61,7 @@
     text-shadow: 1px 1px 2px #4d4a4a91;
 }
 
-.home_user_profile{
+.home_admin_profile{
     margin: 0px 0px 0px 45%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
@@ -73,12 +73,12 @@
     cursor: pointer;
 }
 
-.home_user_profile:hover {
+.home_admin_profile:hover {
     color: #161414;
     text-indent: 1px;
     text-shadow: 1px 1px 2px #4d4a4a91;
 }
-.home_user_profile2{
+.home_admin_profile2{
     margin: 0px 0px 0px 450%;
     position: absolute;
 
