@@ -1,0 +1,245 @@
+/* profile all page style */
+
+
+/* profile  style */
+.profile_main {
+    margin: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* nav -profile */
+.profile_nav_bgcolor {
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 0;
+}
+
+/* brand icon */
+.profile_brand_icon {
+    margin: -11px 0px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #070031;
+    text-shadow: 5px 5px 15px #4d4a4a91;
+    padding: 15px 10px 0px 0px;
+    font-size: 20px;
+    position: relative;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.profile_brand_icon:hover {
+    color: #161414;
+    text-indent: 5px;
+    text-shadow: 1px 1px 2px #4d4a4a91;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* profie card  profilecard_profile_2*/
+.profilecard_profile .profilecard_profile_2 {
+    margin: 2% 0px 0px 40%;
+    height: 200px;
+    width: 200px;
+    padding: 1px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    transition-duration: .5s;
+    padding: 10px;
+}
+
+.profilecard_profile .profilecard_profile_2:hover {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(217, 218, 219);
+    border-radius: 0px 50px 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+/* profie card  usercard*/
+.userdetails_card {
+    margin: 20% 0px 0px 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #070031;
+    text-shadow: 5px 5px 15px #4d4a4a91;
+    position: relative;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.userdetails_card_name {
+    text-shadow: 5px 5px 15px #4d4a4a91;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.userdetails_card_rank {
+    position: absolute;
+    margin: -30px 0px 0px 80%;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* profie card skills*/
+.Adresss_skills_card {
+    margin: 0px 0px 0px 10px;
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #070031;
+    padding: 20px 10px;
+    position: absolute;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    /* box-shadow: 5px 5px 15px #5c5a5a91; */
+    z-index: 1;
+}
+
+.Adresss_skills_card:hover {
+    margin: 0px 0px 0px 10px;
+    border-radius: 40px 0px;
+    padding: 40px 10px;
+    width: 30%;
+    box-shadow: 5px 5px 15px #5c5a5a91;
+
+}
+
+.skills_card {
+    width: 90%;
+    padding: 10px 0px;
+    transition-duration: 5s;
+}
+
+.skills_card_2 {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    font-size: 80%;
+    transition-duration: .5s;
+    word-wrap: break-word;
+}
+
+.Adresss_skills_card:hover .skills_card {
+    width: 95%;
+}
+
+.skills_card_3 {
+    margin: 0px 0px 0px 10%;
+    position: absolute;
+    font-size: 20px;
+    transition-duration: .5s;
+
+}
+
+.Adresss_skills_card:hover .skills_card_3 {
+    margin: 0px 0px 0px 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* profie card */
+.profile_card {
+    min-height: 80%;
+    width: 80%;
+    margin: 0px 0px 0px 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #070031;
+    padding: 20px 0px;
+    border-radius: 30px 0px;
+    background-color: rgb(255, 255, 255);
+    /* text-shadow: 5px 5px 15px #4d4a4a91; */
+    position: relative;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    /* box-shadow: 5px 5px 15px #5c5a5a91; */
+
+}
+
+.profile_card:hover {
+    width: 62%;
+    border-radius: 0px 30px;
+    box-shadow: 5px 5px 15px #6f6d6d91;
+
+}
+
+.profilecardphoto {
+    margin: 20px 0px 0px 20px;
+    height: 150px;
+    transition-duration: 0.5s;
+
+
+
+}
+
+.profilecardphoto:hover {
+    margin: 20px 0px 0px 10px;
+    height: 200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
+
+
+}
+
+.profilecardphoto_1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 20px;
+    transition-duration: .5s;
+}
+
+.profilecardphoto:hover .profilecardphoto_1 {
+    border-radius: 0px 0px;
+}
