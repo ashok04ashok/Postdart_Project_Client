@@ -15,9 +15,9 @@ export default function Adminnav() {
 
             
             <section>
-                <div  className="home_user_profile">
+                <div  className="home_admin_profile">
                     
-                    <h1>ADMIN  <BiLogOutCircle onClick={() => history.push('/adminlogin')}   className="home_user_profile2"/> </h1>
+                    <h1>ADMIN  <BiLogOutCircle onClick={() => history.push('/adminlogin')}   className="home_admin_profile2"/> </h1>
                     
                 </div>
             </section>
