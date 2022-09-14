@@ -1,8 +1,6 @@
 import React from 'react'
 
-import { BiMessageSquareEdit } from "react-icons/bi"
-import { AiOutlineDelete } from "react-icons/ai"
-import { IoMdSave } from "react-icons/io"
+
 
 export default function Profiledetails() {
     return (
