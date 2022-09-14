@@ -9,7 +9,7 @@ export default function Homecard({ post }) {
     const [like, setLike] = useState(false)
     const [isLike, setIsLike] = useState(false)
     const [user, setUser] = useState({})
-    const [profile, setProfile] = useState({})
+    const [setProfile] = useState({})
 
     const likehandler = () => {
         setLike(isLike ? like - 1 : like + 1)
