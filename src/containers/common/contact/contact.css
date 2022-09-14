@@ -1,0 +1,118 @@
+/* contact page style over all  */
+
+
+
+
+/* contact page style  */
+.contact_page {
+	margin: auto;
+	min-height: 800px;
+	min-width: 800px;
+	position: relative;
+}
+
+
+
+
+
+
+/* contact form style */
+.contact_form {
+	margin: 100px 0px 0px 400px;
+	max-height: 600px;
+	max-width: 360px;
+	background-color: #050111;
+	position: absolute;
+	padding: 20px 50px 20px 50px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px 1px #8a8383c5;
+	transition-duration: 0.6s;
+	cursor: pointer;
+}
+/* contact form hover style */
+.contact_form:hover {
+	margin: 90px 0px 0px 450px;
+	text-indent: 2px;
+	border-radius: 1px 50px 8px 50px;
+	background-color: #05011180;
+	box-shadow: 1px 1px 1px #4d4a4a91;
+}
+
+
+
+
+
+
+
+/* contact_sign_btn button style */
+.contact_btn1 {
+	margin: 30px 0px 0px 150px;
+	width: 130px;
+	height: 40px;
+	font-size: 18px;
+	color: rgb(238, 238, 238);
+	font-weight: bold;
+	background: #100c1ffb;
+	border: none;
+	border-radius: 10px 50px 10px 50px;
+	box-shadow: 1px 1px 10px #c7c7c7c5;
+	position: absolute;
+	cursor: pointer;
+}
+
+
+
+/*contact button  style */
+.contact_btn2 {
+	margin: 30px 0px 0px 0px;
+	width: 120px;
+	height: 40px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	background: #fff;
+	border-radius: 10px 10px 10px 10px;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	transition-duration: 1s;
+}
+/* contact user button hover style */
+.contact_btn2:hover {
+	margin: 29px 0px 0px 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	background: #000000;
+	border-radius: 10px 50px 10px 50px;
+	box-shadow: 2px 2px 10px #c7c7c7c5;
+}
+
+
+
+/*contact_btn input style */
+.contact_form input ,input[type=textArea]{
+	margin-top: 30px;
+	width: 240px;
+	height: 25px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #fff;
+	background: transparent;
+	outline: none;
+	border-bottom: 1px solid #ffffff7e;
+	border-style: none none solid none;
+}
+
+.contact_form  ::placeholder {
+	color: #fff;
+	font-family: Arial;
+}
+
+
+
+		
+.contact_form .contact_textarea:hover{
+	height: 100px;
+	background-color: rgba(212, 191, 191, 0.497);
+}

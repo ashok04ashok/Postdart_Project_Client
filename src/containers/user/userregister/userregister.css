@@ -1,0 +1,193 @@
+/* userregister page style over all  */
+
+/* userregister page   */
+.userregister_page {
+	margin:0px;
+	min-height: 900px;
+	min-width: 800px;
+	position: relative;
+}
+
+
+/* userregister form style */
+.userregister_form {
+	margin: 100px 0px 0px 400px;
+	max-height: 700px;
+	max-width: 370px;
+	background-color: #050111;
+	position: absolute;
+	padding: 20px 50px 20px 50px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px 1px #8a8383c5;
+	transition-duration: 0.6s;
+	cursor: pointer;
+}
+/* userregister form hover style */
+.userregister_form:hover {
+	margin: 90px 0px 0px 450px;
+	text-indent: 2px;
+	border-radius: 1px 50px 8px 50px;
+	background-color: #05011180;
+	box-shadow: 1px 1px 1px #4d4a4a91;
+}
+
+
+
+/* userregister  button  style */
+.userregister_btn1 {
+	margin: 30px 0px 0px 0px;
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+	color: #000000;
+	background: #ffffffd3;
+	font-weight: bold;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	transition-duration: 1s;
+}
+/*userregister  button hover style */
+.userregister_form:hover .userregister_btn1{
+	font-weight: bold;
+	color: #fff;
+	font-weight: bold;
+	background: #000000;
+	border-radius: 0px 50px 0px 50px;
+	box-shadow: 2px 2px 10px #c7c7c7c5;
+	
+}
+
+
+
+/* userregister user button  style */
+.userregister_btn2 {
+	margin: 30px 0px 0px 2px;
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold;
+	box-shadow: 1px 1px 10px #1c1818c5;
+	background: #ffffffd3;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	transition-duration: 1s;
+}
+
+/* e-userregister user button hover style */
+
+.userregister_btn2:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	font-weight: bold;
+	background: #000000;
+	border-radius: 0px 50px 0px 50px;
+	box-shadow: 2px 2px 10px #c7c7c7c5;
+}
+
+
+
+
+
+
+/* userregister_btn button style */
+.userregister_btn2 {
+	margin: 30px 0px 0px 2px;
+	width: 120px;
+	height: 40px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	background: #fff;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	transition-duration: 1s;
+}
+/* userregister user button hover style */
+.userregister_btn2:hover {
+	margin: 30px 0px 0px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	background: #000000;
+	border-radius: 0px 50px;
+	box-shadow: 2px 2px 10px #c7c7c7c5;
+}
+
+
+
+
+
+
+/*.userregister_form  input style */
+.userregister_form input {
+	margin-top: 30px;
+	width: 240px;
+	height: 25px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #fff;
+	background: transparent;
+	outline: none;
+	border-bottom: 1px solid #ffffff7e;
+	border-style: none none solid none;
+}
+/* userregister input placeholder style */
+.userregister_form ::placeholder {
+	color: #fff;
+	font-family: Arial;
+}
+
+
+
+
+
+
+
+
+/* userregister_sign_ button style */
+.userregister_sign_btn {
+	margin: 30px 0px 0px 0px;
+	width: 240px;
+	height: 40px;
+	color: #fff8f8;
+	padding: 10px 50px 10px 50px;
+	font-size: 18px;
+	background: #100c1ffb;
+	border: none;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+
+
+/* userregister  login and hover style */
+.userregister_register_link{
+	color:rgb(6, 1, 39)
+}
+.userregister_form:hover .userregister_register_Login{
+	color:white
+}
+.userregister_form:hover .userregister_register_Login:hover{
+color:rgb(15, 6, 55)
+}
+
+
+
+
+
+
+
+
+
+/* danger */
+.text-danger-postdart{
+	color: rgb(241, 233, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	
+}

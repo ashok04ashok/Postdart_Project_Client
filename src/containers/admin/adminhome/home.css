@@ -1,0 +1,150 @@
+/*admin home page style */
+
+
+
+
+
+
+/* home page NAV -bg */
+.back_ground_color {
+    height: 100px;
+    min-width: 99%;
+    margin: -24px 2px 2px 2px;
+    padding: 2px 0px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px #bab8b85e;
+    position: fixed;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+/* navication */
+.home_nav {
+    height: 60px;
+    min-width: 99%;
+    margin: 15px 2px 2px 2px;
+    padding: 2px 0px 10px 10px;
+    border-radius: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.075);
+    box-shadow: 3px 3px 10px 1px #bab8b85e;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+}
+
+.home_nav:hover {
+    margin: 20px 2px 2px 2px;
+    border-radius: 0px 10px;
+}
+
+
+
+/* nav brand */
+.home_brand_icon {
+    margin: 5px 0px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #070031;
+    text-shadow: 5px 5px 15px #4d4a4a91;
+    padding: 15px 10px 0px 0px;
+    font-size: 100%;
+    position: fixed;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.home_brand_icon:hover {
+    color: #161414;
+    text-indent: 5px;
+    text-shadow: 1px 1px 2px #4d4a4a91;
+}
+
+.home_user_profile{
+    margin: 0px 0px 0px 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #070031;
+    text-shadow: 5px 5px 15px #4d4a4a91;
+    padding: 15px 10px 0px 0px;
+    position: fixed;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.home_user_profile:hover {
+    color: #161414;
+    text-indent: 1px;
+    text-shadow: 1px 1px 2px #4d4a4a91;
+}
+.home_user_profile2{
+    margin: 0px 0px 0px 450%;
+    position: absolute;
+
+}
+    
+
+
+
+
+
+.admininputtable {
+    margin: 10% 0px 0px 20px;
+    position: fixed;
+}
+
+
+
+form label {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+form input {
+    display: block;
+    
+    
+}
+.admintableform {
+    margin: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.admintableform1  {
+    margin: -20px 0px 0px 150px;
+    width: 300px;
+position: relative;
+}
+
+
+/* left card    */
+.admintable {
+    position: fixed;
+    height: auto;
+    width: 92%;
+    margin: 30% 0px 0px 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px 20px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #8a838353;
+    overflow-x: hidden;
+    z-index: 2;
+    transition-duration: 1s;
+    text-align: center;
+}
+
+.admmintablerow {
+    text-align: center;
+
+}
+
+.atd {
+    text-align: left;
+}
+
+
